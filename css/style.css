@@ -1,0 +1,19 @@
+html,a,li {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.top-bar {
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.top-bar ul{
+    background-color: white;
+}
+
+.container-fluid {
+    margin:auto;
+    padding:10px;
+}
+
