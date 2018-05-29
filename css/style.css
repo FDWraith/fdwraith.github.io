@@ -4,16 +4,15 @@ html,a,li {
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
-.top-bar {
+.nav-bar {
     background-color: white;
     border-bottom: 1px solid black;
 }
-.top-bar ul{
+.nav-bar ul{
     background-color: white;
 }
 
 .container-fluid {
     margin:auto;
-    padding:10px;
 }
 
