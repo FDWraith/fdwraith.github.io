@@ -7,14 +7,13 @@ html, body {
     margin: 0px auto;
 }
 
-
 nav {
     width: 100%;
     margin: 0px auto;
     overflow: hidden;
-    background: blue;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid black;
 }
 
 nav > .navbar {
@@ -42,4 +41,13 @@ nav > .navbar {
 
 .nav-link {
     font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-score {
+    width: 80%;
+    background: black;
+    height: 2px;
+    margin: auto;
 }
