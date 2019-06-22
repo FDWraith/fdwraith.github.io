@@ -1,0 +1,84 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.horizontal-line {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.section-header-block {
+    padding: 0px 20px;
+    flex: auto;
+}
+
+.section-header-text {
+    flex: 1 0 1em;
+    font-size: 56px;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-column {
+    font-size: 24px;
+    text-align: justify;
+    flex: 1;
+    padding: 0px 3em;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+#header-inner {
+    width: 50vw;
+}
+
+#header-intro {
+    flex: 0;
+}
+
+#about-me-inner {
+    width: 80vw;
+}
